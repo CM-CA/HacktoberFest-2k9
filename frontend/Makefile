@@ -13,7 +13,7 @@ help:
 	@egrep "^# target:" [Mm]akefile
 
 # target: install -- Install vue-cli
-cli:
+install:
 	npm install -g @vue/cli
 
 # target: bootstrap --Installs Bootstrap-Vue
