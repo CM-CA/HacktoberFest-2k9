@@ -1,15 +1,15 @@
 <template>
   <div id="app">
     <div id="navbar-component">
-    <b-navbar toggleable="lg" type="dark" variant="info">
-      <b-navbar-brand href="#">NavBar</b-navbar-brand>
+    <b-navbar toggleable="lg" type="dark" variant="dark">
+      <b-navbar-brand href="#">Icono</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="#">Link</b-nav-item>
-          <b-nav-item href="#">Another Link</b-nav-item>
+          <b-nav-item active href="#">CARRETERA</b-nav-item>
+          <b-nav-item active href="#">MONTAÑA</b-nav-item>
         </b-navbar-nav>
 
         <b-navbar-nav class="ml-auto">
@@ -29,6 +29,30 @@
       </b-collapse>
     </b-navbar>
   </div>
+  <div>
+    <b-carousel
+      id="carousel-fade"
+      style="text-shadow: 0px 0px 2px #000"
+      fade
+      indicators
+      img-width="1024"
+      img-height="300"
+    >
+      <b-carousel-slide
+        caption="First slide"
+        img-src="https://picsum.photos/1024/480/?image=10"
+      ></b-carousel-slide>
+      <b-carousel-slide
+        caption="Second Slide"
+        img-src="https://picsum.photos/1024/480/?image=12"
+      ></b-carousel-slide>
+      <b-carousel-slide
+        caption="Third Slide"
+        img-src="https://picsum.photos/1024/480/?image=22"
+      ></b-carousel-slide>
+    </b-carousel>
+    </div>
+
   </div>
 </template>
 
