@@ -1,15 +1,17 @@
 <template>
   <div id="app">
     <div id="navbar-component">
-    <b-navbar toggleable="lg" type="dark" variant="info">
-      <b-navbar-brand href="#">NavBar</b-navbar-brand>
+    <b-navbar toggleable="lg" type="dark" variant="dark">
+      <b-navbar-brand href="#">
+        <img src="" alt="Icono">
+      </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="#">Link</b-nav-item>
-          <b-nav-item href="#">Another Link</b-nav-item>
+          <b-nav-item active href="#">CARRETERA</b-nav-item>
+          <b-nav-item href="#">MONTAÑA</b-nav-item>
         </b-navbar-nav>
 
         <b-navbar-nav class="ml-auto">
