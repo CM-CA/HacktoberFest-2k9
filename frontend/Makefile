@@ -20,11 +20,6 @@ install:
 bootstrap:
 	npm install vue bootstrap-vue bootstrap
 
-# target: create -- Create new vue project inside a default directory or you can select your own directory
-create:
-	mkdir frontend && cd frontend
-	vue create .
-
 # target: server -- Run server
 server:
 	npm run serve
