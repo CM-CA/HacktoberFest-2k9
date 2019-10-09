@@ -31,6 +31,9 @@
       </b-collapse>
     </b-navbar>
   </div>
+  <div>
+    <footer-c></footer-c>
+  </div>
   </div>
 </template>
 
@@ -39,6 +42,6 @@ export default {
   name:"App"
 }
 </script>
-<style lang="scss">
+<style>
 
 </style>
