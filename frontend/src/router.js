@@ -7,8 +7,6 @@ import Vistacarretera from "@/views/Vistacarretera";
 
 Vue.use(Router);
 
-global.Vue = Vue;
-
 export default new Router({
     mode: "history",
     base: process.env.BASE_URL,
