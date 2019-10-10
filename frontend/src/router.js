@@ -4,6 +4,9 @@ import Router from "vue-router";
 
 import Home from "@/views/Home";
 import Vistacarretera from "@/views/Vistacarretera";
+Vue.use(Router)
+
+global.Vue = Vue
 
 Vue.use(Router);
 
