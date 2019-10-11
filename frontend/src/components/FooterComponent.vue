@@ -6,7 +6,7 @@
                 <h1 class="mb-0">MC<sup>&copy;</sup></h1>
                 <p>Haciendo motos desde 1945</p>
             </div>
-             <div>
+             <div id="carousel">
                 <a href="#"><img src="https://img.icons8.com/metro/104/000000/twitter.png" alt="Twitter"></a>
                 <a href="#"><img src="https://img.icons8.com/metro/104/000000/instagram-new.png" alt="Instagram"></a>
                 <a href="#"><img src="https://img.icons8.com/metro/104/000000/facebook.png" alt="Facebook"></a>
@@ -39,11 +39,11 @@ var app = new Vue({
 </script>
 
 <style>
-    img{
+    #carousel a img{
         width: 2em;
         margin: 0em 0.5em;
     }
     .azul{
-        background-color: #F7F7F7 !important;
+        background-color: lightgrey !important;
     }
 </style>
