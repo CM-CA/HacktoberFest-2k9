@@ -2,7 +2,7 @@
   <div id="app">
     <div id="navbar-component">
       <b-navbar toggleable="lg" type="dark" variant="dark">
-        <b-navbar-brand href="#"><router-link to="home">Icono</router-link></b-navbar-brand>
+        <b-navbar-brand href="#"><router-link to="/">Icono</router-link></b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
