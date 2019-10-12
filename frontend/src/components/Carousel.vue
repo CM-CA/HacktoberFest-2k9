@@ -25,7 +25,7 @@ export default {
     name: 'carousel'
 }
 
-var app = new Vue({
+var app = ({
     name: 'carousel',
 })
 </script>
