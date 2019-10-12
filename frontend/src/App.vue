@@ -8,11 +8,8 @@
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
-            <!--<router-link to="road">CARRETERA</router-link>-->
-            <b-nav-item active>
-              <router-link to="road">CARRETERA</router-link>
-            </b-nav-item>
-            <b-nav-item active href="#">MONTAÑA</b-nav-item>
+            <b-nav-item to="/road">CARRETERA</b-nav-item>
+            <b-nav-item to="/mountain">MONTAÑA</b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav class="ml-auto">
             <b-nav-form>
