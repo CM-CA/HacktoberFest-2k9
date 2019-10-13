@@ -6,7 +6,7 @@
 
         <template v-slot:lead>
           En esta seccion, podras encontrar una gran variedad de motos para que puedas disfrutar
-          de un fin de seman haciendo rutas por la montaña.
+          de un fin de semana haciendo rutas por la montaña.
         </template>
 
         <hr class="my-4" />
