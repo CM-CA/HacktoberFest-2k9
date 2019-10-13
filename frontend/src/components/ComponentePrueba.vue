@@ -9,7 +9,7 @@ export default{
     name:'prueba-componente'
 }
 var app = new Vue({
-     name: 'prueba',
+     name: 'prueba-componente',
 })
 
 

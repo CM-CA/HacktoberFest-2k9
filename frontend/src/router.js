@@ -4,6 +4,8 @@ import Router from "vue-router";
 
 import Home from "@/views/Home";
 import Vistacarretera from "@/views/Vistacarretera";
+import MountainView from "@/views/MountainView"
+
 Vue.use(Router)
 
 global.Vue = Vue
@@ -22,6 +24,11 @@ export default new Router({
             path: "/road",
             name: 'road',
             component: Vistacarretera
+        },
+        {
+            path: "/mountain",
+            name: 'mountain',
+            component: MountainView
         },
     ]
 });

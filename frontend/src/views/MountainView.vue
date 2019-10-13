@@ -1,7 +1,8 @@
 <template>
-<div id="road">
-  <h1>Vista carretera</h1>
+<div id="mountain">
+  <h1>Vista montaña</h1>
 </div>
 </template>
 <script>
 </script>
+
