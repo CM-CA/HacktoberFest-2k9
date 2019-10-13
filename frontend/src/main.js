@@ -13,15 +13,13 @@ Vue.use(BootstrapVue);
 
 Vue.config.productionTip = false;
 
-Vue.component('carousel', Carousel)
-Vue.component('componente-prueba', ComponentePrueba)
-Vue.component('footer-c', FooterComponent)
+Vue.component("carousel", Carousel);
+Vue.component("footer-c", FooterComponent);
 
 new Vue({
   router,
   store,
   Carousel,
-  ComponentePrueba,
   FooterComponent,
   render: h => h(App)
 }).$mount("#app");
