@@ -1,7 +1,6 @@
 <template>
   <div id="road">
-    <h1>Hola mundo</h1>
+    <h1>Vista carretera</h1>
   </div>
 </template>
-<script>
-</script>
+<script></script>

@@ -4,7 +4,8 @@ import Router from "vue-router";
 
 import Home from "@/views/Home";
 import Vistacarretera from "@/views/Vistacarretera";
-import Mountainview from "@/views/Mountainview";
+import MountainView from "@/views/MountainView"
+
 Vue.use(Router)
 
 global.Vue = Vue

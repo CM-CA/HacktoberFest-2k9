@@ -19,10 +19,6 @@
 export default {
   name: "carousel"
 };
-
-var app = {
-  name: "carousel"
-};
 </script>
 
 <style>
