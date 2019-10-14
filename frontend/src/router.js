@@ -4,7 +4,7 @@ import Router from "vue-router";
 
 import Home from "@/views/Home";
 import Vistacarretera from "@/views/Vistacarretera";
-import MountainView from "@/views/MountainView"
+import Mountainview from "@/views/Mountainview";
 
 Vue.use(Router)
 
