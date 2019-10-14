@@ -23,3 +23,7 @@ bootstrap:
 # target: server -- Run server
 server:
 	npm run serve
+
+# target: fix -- Fix eslint
+fix:
+	./node_modules/.bin/eslint src --fix
