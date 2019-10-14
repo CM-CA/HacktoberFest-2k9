@@ -1,9 +1,5 @@
 <template>
   <div id="footer">
-    <<<<<<< HEAD
-    =======
-    <!-- as a footer -->
-    >>>>>>> AlexandreInsua-master
     <b-navbar
       fixed="bottom"
       variant="danger"
