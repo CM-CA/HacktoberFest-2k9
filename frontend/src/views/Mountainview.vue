@@ -15,13 +15,11 @@
       </b-jumbotron>
     </div>
     <div id="mountain-body" class="container-fluid">
-      <!--Not defined -->
       <div class="card" style="width: 18rem;" v-for="b in bikes">
         <img :src="b.img" class="card-img-top" :alt="b.model" />
         <div class="card-body">
           <h5 class="card-title">{{b.model}}</h5>
           <p class="card-text">{{b.brand}}, tamaño de rueda: {{b.size}} pulgadas.</p>
-          <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
         </div>
       </div>
     </div>
