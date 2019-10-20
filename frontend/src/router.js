@@ -8,9 +8,6 @@ import Mountainview from "@/views/Mountainview";
 
 Vue.use(Router)
 
-global.Vue = Vue
-
-Vue.use(Router);
 
 export default new Router({
     mode: "history",
